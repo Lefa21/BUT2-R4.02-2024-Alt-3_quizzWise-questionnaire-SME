@@ -4,20 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee2e0edd-00ca-4a80-8bb4-b65e9997d07a" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/bo/bo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/dto.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/mappers/mappers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/impl.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/models/models.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utils/exceptions/utils.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/services.impl.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ee2e0edd-00ca-4a80-8bb4-b65e9997d07a" name="Changes" comment="ADD ressources">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/bo/QuestionBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/QuestionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/QuestionnairesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/interfaces/IServiceQuestionnaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/AppTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,7 +56,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Libraries",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.fileTypes"
@@ -123,11 +136,19 @@
       <option name="project" value="LOCAL" />
       <updated>1715074670636</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ADD ressources">
+      <created>1715077577875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715077577875</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="ADD ressources" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD ressources" />
   </component>
 </project>
