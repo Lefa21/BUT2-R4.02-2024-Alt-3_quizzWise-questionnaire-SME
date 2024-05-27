@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
 
-class ChargerQuestionnaireTest {
+class ServiceChargerQuestionnaireImplTests {
 
     @Test
     void testFichierIntrouvableException() {
