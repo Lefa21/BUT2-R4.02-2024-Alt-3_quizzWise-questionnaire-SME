@@ -1,1 +1,12 @@
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/bo/QuestionBO.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/exception/FormatFichierInvalideException.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/QuestionnaireDTO.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/exception/FichierIntrouvableException.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/enumm/DifficulteEnum.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/enumm/LanguesEnum.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/impl/QuestionnaireImpl.class
 org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/App.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/exception/FichierVideException.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/QuestionnairesDTO.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/interfaces/IQuestionnaire.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/QuestionDTO.class

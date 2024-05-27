@@ -4,41 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee2e0edd-00ca-4a80-8bb4-b65e9997d07a" name="Changes" comment="ADD bo et dto">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/ServiceQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/interfaces/IServiceQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utils/exceptions/enumerate/Difficulte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utils/exceptions/exceptions/CannotReadFileException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utils/exceptions/exceptions/EmptyFileException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utils/exceptions/exceptions/FileNotAvailableException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utils/exceptions/exceptions/MissingArgumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utils/exceptions/exceptions/WrongArgumentTypeException.java" afterDir="false" />
+    <list default="true" id="ee2e0edd-00ca-4a80-8bb4-b65e9997d07a" name="Changes" comment="add gitignore">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/bo/QuestionBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/QuestionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/QuestionnaireDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/QuestionnairesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/ressources/questionsQuizz_V1.1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/QuestionnaireImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/interfaces/IQuestionnaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/enumm/DifficulteEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/enumm/LanguesEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/exception/FichierIntrouvableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/exception/FichierVideException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/exception/FormatFichierInvalideException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/MockTest/IServiceQuestionnaireChargerListeQuestMock1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/MockTest/IServiceQuestionnaireChargerListeQuestMock2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/MockTest/IServiceQuestionnaireChargerListeQuestMock3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/impl/ChargerQuestionnaireTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/questionsQuizz_V1.1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/QuestionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/QuestionDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/QuestionnairesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/QuestionnairesDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/ServicesQuestionnaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/ServicesQuestionnaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/interfaces/IServiceQuestionnaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/interfaces/IServiceQuestionnaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/bo/bo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/dto.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/dto.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/impl.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/models/models.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/models.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utils/exceptions/utils.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/utils.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/services.impl.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/AppTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Enum" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2g8IXTtfbp5jvmd30g6jr79w9PS" />
   <component name="ProjectLevelVcsManager">
@@ -53,13 +72,74 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/etudiants/info/mirhbira/ideaProjectsCE/questionnaire_sme/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/ressources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="Maven.questionnaire_sme [test]">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/ressources" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/MockTest" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.entities.bo" />
+      <recent name="org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.services.impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ChargerQuestionnaireTest">
+    <configuration name="ChargerQuestionnaireTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="questionnaire_sme" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.impl" />
+      <option name="MAIN_CLASS_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.impl.ChargerQuestionnaireTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChargerQuestionnaireTest.testFichierIntrouvableException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="questionnaire_sme" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.impl" />
+      <option name="MAIN_CLASS_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.impl.ChargerQuestionnaireTest" />
+      <option name="METHOD_NAME" value="testFichierIntrouvableException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChargerQuestionnaireTest.testFormatFichierInvalideException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="questionnaire_sme" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.impl" />
+      <option name="MAIN_CLASS_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.impl.ChargerQuestionnaireTest" />
+      <option name="METHOD_NAME" value="testFormatFichierInvalideException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="questionnaire_sme [clean,package]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -112,9 +192,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.ChargerQuestionnaireTest" />
+      <item itemvalue="JUnit.ChargerQuestionnaireTest.testFichierIntrouvableException" />
+      <item itemvalue="JUnit.ChargerQuestionnaireTest.testFormatFichierInvalideException" />
       <item itemvalue="Maven.questionnaire_sme [clean,package]" />
       <item itemvalue="Maven.questionnaire_sme [test]" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ChargerQuestionnaireTest" />
+        <item itemvalue="JUnit.ChargerQuestionnaireTest.testFichierIntrouvableException" />
+        <item itemvalue="JUnit.ChargerQuestionnaireTest.testFormatFichierInvalideException" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -132,50 +222,11 @@
       <option name="project" value="LOCAL" />
       <updated>1715074670636</updated>
     </task>
-    <task id="LOCAL-00002" summary="ADD ressources">
-      <created>1715077577875</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1715077577875</updated>
-    </task>
-    <task id="LOCAL-00003" summary="ADD bo et dto">
-      <created>1716302836980</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1716302836980</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <MESSAGE value="ADD ressources" />
-    <MESSAGE value="ADD bo et dto" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD bo et dto" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
