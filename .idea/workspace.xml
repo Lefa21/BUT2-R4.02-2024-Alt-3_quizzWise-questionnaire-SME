@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee2e0edd-00ca-4a80-8bb4-b65e9997d07a" name="Changes" comment="add services impl and test">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/EmptyFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/QuestionnaireOk" afterDir="false" />
+    <list default="true" id="ee2e0edd-00ca-4a80-8bb4-b65e9997d07a" name="Changes" comment="add test in resources">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/test/questionnaire/IServiceQuestionnaireTestFileNotAvailable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/test/questionnaire/IServiceQuestionnaireTestFileNotAvailable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,13 +263,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717332738039</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add test in resources">
+      <created>1717333571160</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717333571160</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="test" />
     <MESSAGE value="add services impl and test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add services impl and test" />
+    <MESSAGE value="add test in resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test in resources" />
   </component>
 </project>
