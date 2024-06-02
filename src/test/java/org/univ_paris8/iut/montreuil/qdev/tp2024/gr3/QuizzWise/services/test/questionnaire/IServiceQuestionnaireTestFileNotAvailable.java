@@ -11,7 +11,7 @@ public class IServiceQuestionnaireTestFileNotAvailable {
     public void testChargerQuestionnaireFileNotAvailable() throws FileNotAvailableException, EmptyFileException, CannotReadFileException {
 
         Assertions.assertThrows(FileNotAvailableException.class, () -> {
-            iServiceQuestionnaire.getListQuestionnaires("src/tst/resources/QuestionnaireOK");
+            iServiceQuestionnaire.getListQuestionnaires("src/test/resources/QuestionnaireOk");
         });
 
     }
