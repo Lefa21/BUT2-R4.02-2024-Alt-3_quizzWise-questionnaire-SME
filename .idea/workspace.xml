@@ -5,20 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee2e0edd-00ca-4a80-8bb4-b65e9997d07a" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/question/IServiceQuestionMockMissingArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/question/IServiceQuestionMockWrongTypeArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/questionnaire/IServiceQuestionnaireImplMockEmptyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/questionnaire/IServiceQuestionnaireImplMockOk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/questionnaire/IServiceQuestionnaireImplMockTestFileNotAvailable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/test/question/IServiceQuestionTestMissingArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/test/question/IServiceQuestionTestOk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/test/question/IServiceQuestionTestWrongTypeArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/test/questionnaire/IQuestionnaireTestOk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/test/questionnaire/IServiceQuestionnaireTestEmptyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/test/questionnaire/IServiceQuestionnaireTestFileNotAvailable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/dto.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/MockTest/IServiceQuestionnaireChargerListeQuestMock1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/MockTest/ServiceQuestionnaireChargerFichierIntrouvableMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/MockTest/IServiceQuestionnaireChargerListeQuestMock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/MockTest/ServiceQuestionnaireChargerFichierVideMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/MockTest/IServiceQuestionnaireChargerListeQuestMock3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/MockTest/ServiceQuestionnaireChargerFichierInvalideMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/impl/ChargerQuestionnaireTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/impl/ServiceChargerQuestionnaireImplTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/bo/QuestionBO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/QuestionDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/QuestionnaireDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/entities/dto/QuestionnairesDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/ressources/questionsQuizz_V1.1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/QuestionnaireImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/interfaces/IQuestionnaire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/enumm/DifficulteEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/enumm/LanguesEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/question/IServiceQuestionMockOk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/exception/FichierIntrouvableException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/exception/FichierVideException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/utiles/exception/FormatFichierInvalideException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/MockTest/ServiceQuestionnaireChargerFichierIntrouvableMock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/MockTest/ServiceQuestionnaireChargerFichierInvalideMock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/MockTest/ServiceQuestionnaireChargerFichierVideMock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/impl/ServiceChargerQuestionnaireImplTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -37,11 +63,6 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2g8IXTtfbp5jvmd30g6jr79w9PS" />
   <component name="ProjectLevelVcsManager">
@@ -51,18 +72,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/etudiants/info/mirhbira/ideaProjectsCE/questionnaire_sme/target",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/etudiants/info/mirhbira/ideaProjectsCE/questionnaire_sme/target&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/target" />
@@ -76,7 +97,7 @@
       <recent name="org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.services.impl" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ServiceChargerQuestionnaireImplTests">
     <configuration name="ServiceChargerQuestionnaireImplTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Questionnaire-sme" />
       <extension name="coverage">
@@ -153,6 +174,19 @@
       <option name="MAIN_CLASS_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.impl.ServiceChargerQuestionnaireImplTests" />
       <option name="METHOD_NAME" value="testFormatFichierInvalideException" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Questionnaire-sme" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Questionnaire-sme" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
