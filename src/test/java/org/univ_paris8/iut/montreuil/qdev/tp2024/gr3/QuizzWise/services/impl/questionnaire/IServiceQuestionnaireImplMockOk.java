@@ -6,6 +6,8 @@ import org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.entities.dto.Ques
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.services.interfaces.IServiceQuestionnaire;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.utils.exceptions.enumerate.Difficulte;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.utils.exceptions.exceptions.CannotReadFileException;
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.utils.exceptions.exceptions.EmptyFileException;
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.utils.exceptions.exceptions.FileNotAvailableException;
 
 import java.util.ArrayList;
 
@@ -23,6 +25,6 @@ public class IServiceQuestionnaireImplMockOk implements IServiceQuestionnaire {
         listeQuestions.add(questionDTO3);
 
         QuestionnairesDTO expectedQuestionnaireDTO = new QuestionnairesDTO(listeQuestions);
-        return expectedQuestionnairesDTO;
+        return expectedQuestionnaireDTO;
     }
 }

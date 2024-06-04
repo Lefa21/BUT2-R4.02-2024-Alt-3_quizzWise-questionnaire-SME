@@ -9,7 +9,7 @@ import org.univ_paris8.iut.montreuil.qdev.tp2024.gr3.QuizzWise.utils.exceptions.
 public class IServiceQuestionMockOk implements IServiceQuestion {
     @Override
     public QuestionDTO creerQuestion(String[] ligne) throws MissingArgumentException, WrongArgumentTypeException {
-        QuestionDTO expectedQuestionDTO = new QuestionDTO(1,"Question test", "Reponse test", Difficulte.DIFFICILE);
+        QuestionDTO expectedQuestionDTO = new QuestionDTO(1,"Question 1", "Reponse 1", Difficulte.DIFFICILE);
         return expectedQuestionDTO;
     }
 }

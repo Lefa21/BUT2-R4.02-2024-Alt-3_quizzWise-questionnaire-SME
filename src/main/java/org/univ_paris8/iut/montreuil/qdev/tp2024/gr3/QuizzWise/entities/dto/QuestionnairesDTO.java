@@ -50,4 +50,8 @@ public class QuestionnairesDTO {
     public void setListQuestionnaire(List<QuestionDTO> listQuestionnaire) {
         this.listQuestionnaire = listQuestionnaire;
     }
+
+
+    public Object getListQuestionnaires(String s) {
+    }
 }
