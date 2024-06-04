@@ -24,10 +24,10 @@ public class IQuestionnaireTestOk {
         QuestionDTO question2 = new QuestionDTO(2, "Question 2", "Reponse 2", Difficulte.INTERMEDIARE);
         QuestionDTO question3 = new QuestionDTO(3, "Question 3", "Reponse 3", Difficulte.DIFFICILE);
 
-        ArrayList<QuestionDTO> listeQuestions = new ArrayList<>();
-        listeQuestions.add(question1);
-        listeQuestions.add(question2);
-        listeQuestions.add(question3);
+            ArrayList<QuestionDTO> listeQuestions = new ArrayList<>();
+            listeQuestions.add(question1);
+            listeQuestions.add(question2);
+            listeQuestions.add(question3);
 
         QuestionnairesDTO expectedQuestionnaireDTO = new QuestionnairesDTO(listeQuestions);
         QuestionnairesDTO actualQuestionnaireDTO = iServiceQuestionnaire.getListQuestionnaires("src/test/resources/QuestionnaireOK");

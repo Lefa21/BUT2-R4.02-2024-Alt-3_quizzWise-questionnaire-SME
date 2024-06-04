@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Merge_at_04_06_2024_11_20_[Changes]" date="1717493086311" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_04_06_2024_11_20_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Merge at 04/06/2024 11:20 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/test/questionnaire/IQuestionnaireTestOk.class" />
+    <option name="AFTER_PATH" value="target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/test/questionnaire/IQuestionnaireTestOk.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_04_06_2024_11_20_[Changes]/IQuestionnaireTestOk.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/test/questionnaire/IQuestionnaireTestOk$1.class" />
+    <option name="AFTER_PATH" value="target/test-classes/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/test/questionnaire/IQuestionnaireTestOk$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_04_06_2024_11_20_[Changes]/IQuestionnaireTestOk$1.class" />
+  </binary>
+</changelist>

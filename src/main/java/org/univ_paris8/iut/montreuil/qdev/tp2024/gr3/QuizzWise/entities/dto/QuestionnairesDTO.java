@@ -14,17 +14,18 @@ public class QuestionnairesDTO {
         this.idQuestionnaire = compteur;
     }
 
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (!(o instanceof QuestionnairesDTO)) return false;
         QuestionnairesDTO that = (QuestionnairesDTO) o;
-        return Objects.equals(listQuestionnaire, that.listQuestionnaire);
+        return Objects.equals(getListQuestionnaire(), that.getListQuestionnaire());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(listQuestionnaire);
+        return Objects.hash(getListQuestionnaire());
     }
 
     @Override
@@ -50,5 +51,4 @@ public class QuestionnairesDTO {
     public void setListQuestionnaire(List<QuestionDTO> listQuestionnaire) {
         this.listQuestionnaire = listQuestionnaire;
     }
-
 }
