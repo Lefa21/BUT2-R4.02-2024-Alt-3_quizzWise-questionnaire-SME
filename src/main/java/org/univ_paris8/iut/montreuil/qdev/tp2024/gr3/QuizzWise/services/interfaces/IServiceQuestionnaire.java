@@ -9,5 +9,5 @@ import java.util.ArrayList;
 import java.util.List;
 
 public interface IServiceQuestionnaire {
-    public QuestionnairesDTO getListQuestionnaires(String sourceFichierCsv) throws FileNotAvailableException, EmptyFileException, CannotReadFileException;
+    public  QuestionnairesDTO getListQuestionnaires(String sourceFichierCsv) throws FileNotAvailableException, EmptyFileException, CannotReadFileException;
 }
