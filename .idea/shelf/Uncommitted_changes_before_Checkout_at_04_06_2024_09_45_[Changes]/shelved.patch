@@ -1,0 +1,108 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"ee2e0edd-00ca-4a80-8bb4-b65e9997d07a\" name=\"Changes\" comment=\"ADD bo et dto\">\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/ServicesQuestionnaire.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Interface\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"importingSettings\">\n      <MavenImportingSettings>\n        <option name=\"workspaceImportEnabled\" value=\"true\" />\n      </MavenImportingSettings>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"2g8IXTtfbp5jvmd30g6jr79w9PS\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.15\",\n    \"project.structure.side.proportion\": \"0.2\",\n    \"settings.editor.selected.configurable\": \"preferences.fileTypes\"\n  }\n}]]></component>\n  <component name=\"RunManager\" selected=\"Maven.questionnaire_sme [test]\">\n    <configuration name=\"questionnaire_sme [clean,package]\" type=\"MavenRunConfiguration\" factoryName=\"Maven\" nameIsGenerated=\"true\">\n      <MavenSettings>\n        <option name=\"myGeneralSettings\" />\n        <option name=\"myRunnerSettings\" />\n        <option name=\"myRunnerParameters\">\n          <MavenRunnerParameters>\n            <option name=\"profiles\">\n              <set />\n            </option>\n            <option name=\"goals\">\n              <list>\n                <option value=\"clean\" />\n                <option value=\"package\" />\n              </list>\n            </option>\n            <option name=\"pomFileName\" />\n            <option name=\"profilesMap\">\n              <map />\n            </option>\n            <option name=\"resolveToWorkspace\" value=\"false\" />\n            <option name=\"workingDirPath\" value=\"$PROJECT_DIR$\" />\n          </MavenRunnerParameters>\n        </option>\n      </MavenSettings>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"questionnaire_sme [test]\" type=\"MavenRunConfiguration\" factoryName=\"Maven\" nameIsGenerated=\"true\">\n      <MavenSettings>\n        <option name=\"myGeneralSettings\" />\n        <option name=\"myRunnerSettings\" />\n        <option name=\"myRunnerParameters\">\n          <MavenRunnerParameters>\n            <option name=\"profiles\">\n              <set />\n            </option>\n            <option name=\"goals\">\n              <list>\n                <option value=\"test\" />\n              </list>\n            </option>\n            <option name=\"pomFileName\" />\n            <option name=\"profilesMap\">\n              <map />\n            </option>\n            <option name=\"resolveToWorkspace\" value=\"false\" />\n            <option name=\"workingDirPath\" value=\"$PROJECT_DIR$\" />\n          </MavenRunnerParameters>\n        </option>\n      </MavenSettings>\n      <method v=\"2\" />\n    </configuration>\n    <list>\n      <item itemvalue=\"Maven.questionnaire_sme [clean,package]\" />\n      <item itemvalue=\"Maven.questionnaire_sme [test]\" />\n    </list>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"ee2e0edd-00ca-4a80-8bb4-b65e9997d07a\" name=\"Changes\" comment=\"\" />\n      <created>1715072819718</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1715072819718</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"first commit\">\n      <created>1715074670636</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1715074670636</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"ADD ressources\">\n      <created>1715077577875</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1715077577875</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"ADD bo et dto\">\n      <created>1716302836980</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1716302836980</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"first commit\" />\n    <MESSAGE value=\"ADD ressources\" />\n    <MESSAGE value=\"ADD bo et dto\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ADD bo et dto\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,8 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="ee2e0edd-00ca-4a80-8bb4-b65e9997d07a" name="Changes" comment="ADD bo et dto">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr3/QuizzWise/services/impl/ServicesQuestionnaire.java" afterDir="false" />
++    <list default="true" id="ee2e0edd-00ca-4a80-8bb4-b65e9997d07a" name="Changes" comment="ADD impl service">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -22,6 +21,11 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+@@ -42,17 +46,17 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.15",
+-    "project.structure.side.proportion": "0.2",
+-    "settings.editor.selected.configurable": "preferences.fileTypes"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RunManager" selected="Maven.questionnaire_sme [test]">
+     <configuration name="questionnaire_sme [clean,package]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+       <MavenSettings>
+@@ -140,13 +144,44 @@
+       <option name="project" value="LOCAL" />
+       <updated>1716302836980</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="ADD impl service">
++      <created>1716303591870</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1716303591870</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="origin/main" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="first commit" />
+     <MESSAGE value="ADD ressources" />
+     <MESSAGE value="ADD bo et dto" />
+-    <option name="LAST_COMMIT_MESSAGE" value="ADD bo et dto" />
++    <MESSAGE value="ADD impl service" />
++    <option name="LAST_COMMIT_MESSAGE" value="ADD impl service" />
+   </component>
+ </project>
+\ No newline at end of file
