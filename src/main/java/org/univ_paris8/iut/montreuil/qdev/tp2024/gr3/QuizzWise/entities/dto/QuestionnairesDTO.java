@@ -19,12 +19,12 @@ public class QuestionnairesDTO {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         QuestionnairesDTO that = (QuestionnairesDTO) o;
-        return idQuestionnaire == that.idQuestionnaire && Objects.equals(listQuestionnaire, that.listQuestionnaire);
+        return Objects.equals(listQuestionnaire, that.listQuestionnaire);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(listQuestionnaire, idQuestionnaire);
+        return Objects.hash(listQuestionnaire);
     }
 
     @Override
@@ -51,7 +51,4 @@ public class QuestionnairesDTO {
         this.listQuestionnaire = listQuestionnaire;
     }
 
-
-    public Object getListQuestionnaires(String s) {
-    }
 }
